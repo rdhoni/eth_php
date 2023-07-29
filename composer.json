@@ -1,0 +1,26 @@
+{
+    "name": "rdhoni/eth_php",
+    "description": "create private key eth php",
+    "type": "library",
+    "license": "MIY",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Rdhoni\\EthPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rdhoni",
+            "email": "admin@suhu.my.id"
+        }
+    ],
+    "require": {
+        "sop/asn1": "^4.1",
+        "sop/crypto-encoding": "^0.3.0",
+        "sop/crypto-types": "^0.3.0",
+        "kornrunner/keccak": "^1.1",
+        "symfony/dotenv": "^6.3",
+        "sc0vu/web3.php": "dev-master"
+    }
+}
